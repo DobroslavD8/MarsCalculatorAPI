@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.28010.2041
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarsCalculatorAPI", "MarsCalculatorAPI\MarsCalculatorAPI.csproj", "{995959F0-1B5F-40B9-8F1C-13D4D669BEB5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{DF2E0B28-26FA-41A3-B558-A02C65031E89}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "ConsoleApp1\Application.csproj", "{DF2E0B28-26FA-41A3-B558-A02C65031E89}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
