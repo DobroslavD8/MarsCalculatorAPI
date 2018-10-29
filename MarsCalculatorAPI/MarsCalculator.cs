@@ -1,13 +1,12 @@
 ﻿using MarsCalculatorAPI.Exceptions;
 using NLog;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace MarsCalculatorAPI
 {
+    /// <summary>
+    /// Mars calculator with math operations.
+    /// </summary>
     public class MarsCalculator
     {
         /// <summary>
@@ -62,6 +61,11 @@ namespace MarsCalculatorAPI
             return Convert.ToString(octalNum1 + octalNum2, 8);
         }
 
+        /// <summary>
+        /// Getting an octal number.
+        /// </summary>
+        /// <param name="first number"></param>
+        /// <returns></returns>
         private int GetOctalNum1(string num1)
         {
             try

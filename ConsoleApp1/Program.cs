@@ -6,10 +6,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApplication
+namespace MarsCalculatorApplication
 {
     class Program
     {
+        /// <summary>
+        /// Entering the numbers and math operator.
+        /// </summary>
         static void Main()
         {
             MarsCalculator mars = new MarsCalculator();
