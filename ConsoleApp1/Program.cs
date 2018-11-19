@@ -1,10 +1,6 @@
 ﻿using MarsCalculatorAPI;
 using MarsCalculatorAPI.Exceptions;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace MarsCalculatorApplication
 {
@@ -13,6 +9,7 @@ namespace MarsCalculatorApplication
         /// <summary>
         /// Entering the numbers and math operator.
         /// </summary>
+        ///
         static void Main()
         {
             MarsCalculator mars = new MarsCalculator();
@@ -26,6 +23,7 @@ namespace MarsCalculatorApplication
             Console.Write("Enter operator: ");
             string oper = Console.ReadLine();
 
+            // Action determination      
             try
             {
                 if (oper == "+")
