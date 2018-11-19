@@ -58,7 +58,7 @@ namespace MarsCalculatorAPI
         {
             int octalNum1 = GetOctalNum1(num1);
             int octalNum2 = GetOctalNum1(num2);
-            return Convert.ToString(octalNum1 + octalNum2, 8);
+            return Convert.ToString(octalNum1 / octalNum2, 8);
         }
 
         /// <summary>
